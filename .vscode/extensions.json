@@ -2,6 +2,10 @@
   "recommendations": [
     "aaron-bond.better-comments",
     "mikestead.dotenv",
-    "golang.go"
+    "golang.go",
+    "oderwat.indent-rainbow",
+    "shardulm94.trailing-spaces",
+    "mosapride.zenkaku",
+    "tabnine.tabnine-vscode"
   ]
 }

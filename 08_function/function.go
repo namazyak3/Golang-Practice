@@ -19,10 +19,12 @@ func main() {
 	dubleRes(4)
 
 	fmt.Println("\n---Function in variable---")
-	num := func(text string) {
-		fmt.Println(text)
+	x := 2
+	y := 3
+	num := func() int {
+		return x * y
 	}
-	num("test text")
+	fmt.Println(num())
 
 	fmt.Println("\n---Nameless functioon---")
 	func(num int) {
